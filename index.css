@@ -23,6 +23,43 @@ body {
   scroll-behavior: smooth;
 }
 
+
+/* Apply styles to the navigation menu */
+.navbar {
+  background-color: #4522A9;
+}
+
+.navbar ul {
+  list-style-type: none;
+  width: 50%;
+  margin: auto;
+  padding-left: 9vh;
+  display: flex;
+  gap: 69px;
+  align-items: end;
+  justify-content:end;
+  align-items: center;
+  height: 50px;
+}
+
+.navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #ff5a2c;
+  border-radius: 5px; /* Add rounded corners on hover */
+  padding: 5px 10px; /* Add padding on hover for better visual feedback */
+}
+
 .container {
   display: block;
   margin-left: auto;
@@ -37,6 +74,7 @@ body {
   border-bottom-left-radius: 0.75rem;
   border-bottom-right-radius: 0.75rem;
   display: flex;
+  /* width: 100%; */
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.5);
@@ -117,6 +155,9 @@ body {
 
 .accordion-content p {
   margin: 0;
+}
+img{
+  width: 100%;
 }
 .faq-img{
     width: 100%;
