@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+html {
+  overflow-x: hidden;
+}
+
+* {
+  /* border: 1px solid green; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative !important;
+  overflow-x: hidden !important;
+  font-family: "Poppins", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+
+.mini-container {
+  overflow: hidden;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-width: 2px;
+}
+
+.faq-hero-textdiv {
+  text-align: center;
+  position: absolute;
+  z-index: 2000;
+}
+
+.header-text {
+  font-size: 1.25rem;
+  color: #f2f2f2;
+  font-weight: 600;
+  z-index: 2000;
+}
+
+.sub-header-text {
+  font-size: 0.875rem;
+  margin-top: 1.25rem;
+  color: #f2f2f2;
+  z-index: 2000;
+}
+
+.accordion-div {
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.section-container {
+  background-color: #fafafa;
+  padding: 0 1.25rem 5rem 1.25rem;
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #000;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  color: #000;
+}
+
+.accordion-title {
+  margin: 0;
+  color: #000;
+}
+
+.accordion-icon {
+  width: 12px;
+  height: 12px;
+  border: solid #333;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-content {
+  display: none;
+  padding: 20px 15px;
+  background-color: rgba(69, 34, 169, 0.1);
+}
+
+.accordion-content p {
+  margin: 0;
+}
+.faq-img{
+    width: 100%;
+    height: 80vh;
+}
+.mini-container img{
+    opacity: 0.5;
+}
+.mini-container{
+    background-color: #000;
+}
+
+@media only screen and (max-width: 640px) {
+    .faq-img{
+        height: 40vh;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .section-container {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+
+    .container {
+      background-color: #f9f9f9;
+      padding-bottom: 2.5rem;
+    }
+
+    .header-text {
+      font-size: 1.875rem;
+    }
+
+    .sub-header-text {
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+
+    .accordion-div {
+      padding-top: 5rem;
+
+      padding-bottom: 2.5rem;
+    }
+  }
+
+  @media only screen and (min-width: 767px) {
+    .mini-container {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .section-container {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+
+    .header-text {
+      font-size: 2.5rem;
+    }
+
+    .sub-header-text {
+      margin-top: 2.5rem;
+      font-size: 1.125rem;
+    }
+}
