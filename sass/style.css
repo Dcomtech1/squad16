@@ -16,6 +16,56 @@ body {
   font-weight: 400;
 }
 
+/* Apply styles to the navigation menu */
+.navbar {
+  background-color: #4522A9;
+}
+
+.navbar ul {
+  list-style-type: none;
+  width: 50%;
+  margin: auto;
+  padding-left: 9vh;
+  display: flex;
+  gap: 39px;
+  align-items: end;
+  justify-content:space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #ff5a2c;
+  border-radius: 5px; /* Add rounded corners on hover */
+  padding: 5px 10px; /* Add padding on hover for better visual feedback */
+}
+
+/* Custom styles for the Bootstrap navbar */
+.navbar .nav-link {
+  transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+.navbar .nav-link:hover {
+  color: #ff5a2c; /* Change the text color on hover */
+}
+/* Custom CSS for the navbar background color */
+.custom-navbar-bg {
+  background-color: #4522A9;
+}
+
+
 strong {
   font-weight: 700;
 }
