@@ -1,180 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
 
-    <title>Document</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./index.css" />
 
-    <!-- font awesome links -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <!-- <script src="https://use.fontawesome.com/47058d5e54.js"></script> -->
-  </head>
-  <body>
-    <div class="wrapper">
-      <!-- Navbar goes here -->
+  <title>FAQ</title>
 
-      <section class="section-container">
-        <div class="container">
-          <div class="mini-container">
-            <div class="faq-hero-textdiv">
-              <h1 class="header-text">Frequently Asked Questions</h1>
-              <p class="sub-header-text">
-                Have questions for Kibo? We are ready to help
-              </p>
-            </div>
-            <img
-              src="faq-backgroung.jpg"
-              alt="faq background"
-              class="faq-img"
-            />
+  <!-- font awesome links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <!-- <script src="https://use.fontawesome.com/47058d5e54.js"></script> -->
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Navbar goes here -->
+
+    <!-- Create a navigation menu -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index1.html">About Us</a></li>
+        <li><a href="admission.html">Admissions</a></li>
+        <li><a href="index11.html">Contact Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <!-- Add your content sections and footer here -->
+
+
+    <section class="section-container">
+      <div class="container">
+        <div class="mini-container">
+          <div class="faq-hero-textdiv">
+            <h1 class="header-text">Frequently Asked Questions</h1>
+            <p class="sub-header-text">
+              Have questions for Kibo? We are ready to help
+            </p>
           </div>
+          <img src="faq-backgroung.jpg" alt="faq background" class="faq-img" />
+        </div>
 
-          <div class="accordion-div">
-            <div class="accordion">
-              <!-- Accordion items -->
-              <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(event)">
-                  <p class="accordion-title">
-                    How can I apply to Kibo University?
-                  </p>
-                  <span class="accordion-icon"></span>
-                </div>
-                <div class="accordion-content">
-                  <p>
-                    You can apply to Kibo University by completing the
-                    online application form available on our official website.
-                    Make sure to submit all required documents and meet the
-                    application deadlines.
-                  </p>
-                </div>
+        <div class="accordion-div">
+          <div class="accordion">
+            <!-- Accordion items -->
+            <div class="accordion-item">
+              <div class="accordion-header" onclick="toggleAccordion(event)">
+                <p class="accordion-title">
+                  How can I apply to Kibo University?
+                </p>
+                <span class="accordion-icon"></span>
               </div>
+              <div class="accordion-content">
+                <p>
+                  You can apply to Kibo University by completing the
+                  online application form available on our official website.
+                  Make sure to submit all required documents and meet the
+                  application deadlines.
+                </p>
+              </div>
+            </div>
 
-              <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(event)">
-                  <p class="accordion-title">Are there any scholarships or financial aid options available at Kibo University?</p>
-                  <span class="accordion-icon"></span>
-                </div>
-                <div class="accordion-content">
-                  <p>
-                    Yes, Kibo University offers various scholarships and financial aid options to eligible students. These include merit-based scholarships, need-based grants, and work-study programs. We encourage you to explore the financial aid opportunities on our website and submit the necessary applications.
-                  </p>
-                </div>
+            <div class="accordion-item">
+              <div class="accordion-header" onclick="toggleAccordion(event)">
+                <p class="accordion-title">Are there any scholarships or financial aid options available at Kibo
+                  University?</p>
+                <span class="accordion-icon"></span>
               </div>
-              <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(event)">
-                  <p class="accordion-title">
-                    What are the admission requirements for Kibo
-                    University?
-                  </p>
-                  <span class="accordion-icon"></span>
-                </div>
-                <div class="accordion-content">
-                  <p>
-                    The admission requirements for Kibo University are your high school transcripts and completing the application process.
-                  </p>
-                </div>
+              <div class="accordion-content">
+                <p>
+                  Yes, Kibo University offers various scholarships and financial aid options to eligible students. These
+                  include merit-based scholarships, need-based grants, and work-study programs. We encourage you to
+                  explore the financial aid opportunities on our website and submit the necessary applications.
+                </p>
               </div>
-              <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(event)">
-                  <p class="accordion-title">
-                    How much is the tuition fee at Kibo University?
-                  </p>
-                  <span class="accordion-icon"></span>
-                </div>
-                <div class="accordion-content">
-                  <p>
-                    The tuition fee at Kibo University can vary depending
-                    on the program. We recommend visiting our website or contacting the admissions office for the most up-to-date information on tuition fees.
-                  </p>
-                </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header" onclick="toggleAccordion(event)">
+                <p class="accordion-title">
+                  What are the admission requirements for Kibo
+                  University?
+                </p>
+                <span class="accordion-icon"></span>
               </div>
-              <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(event)">
-                  <p class="accordion-title">What majors or programs does Kibo University offer?</p>
-                  <span class="accordion-icon"></span>
-                </div>
-                <div class="accordion-content">
-                  <p>
-                    Currently, Kibo University offers Bachelor of Science(B.Sc) in computer science.
-                  </p>
-                </div>
+              <div class="accordion-content">
+                <p>
+                  The admission requirements for Kibo University are your high school transcripts and completing the
+                  application process.
+                </p>
               </div>
-              <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(event)">
-                  <p class="accordion-title">Does Kibo University have on-campus housing options?</p>
-                  <span class="accordion-icon"></span>
-                </div>
-                <div class="accordion-content">
-                  <p>
-                    No, Kibo University is an online online university. Although students get to meet up with their colleagues and the staffs from time to time, all academic activities are online.
-                  </p>
-                </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header" onclick="toggleAccordion(event)">
+                <p class="accordion-title">
+                  How much is the tuition fee at Kibo University?
+                </p>
+                <span class="accordion-icon"></span>
               </div>
-              <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(event)">
-                  <p class="accordion-title">Can I transfer credits from another university to Kibo University?</p>
-                  <span class="accordion-icon"></span>
-                </div>
-                <div class="accordion-content">
-                  <p>
-                    No, Currently Kibo only offers a three years B.Sc in computer science program and you cannot transfer fom another school now.
-                  </p>
-                </div>
+              <div class="accordion-content">
+                <p>
+                  The tuition fee at Kibo University can vary depending
+                  on the program. We recommend visiting our website or contacting the admissions office for the most
+                  up-to-date information on tuition fees.
+                </p>
               </div>
-              <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(event)">
-                  <p class="accordion-title">Does Kibo University offer study abroad programs?</p>
-                  <span class="accordion-icon"></span>
-                </div>
-                <div class="accordion-content">
-                  <p>
-                    Yes, Kibo University encourages students to participate in study abroad programs to gain international exposure and cultural experiences. We have partnerships with universities around the world, offering various exchange programs and study abroad opportunities.
-                  </p>
-                </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header" onclick="toggleAccordion(event)">
+                <p class="accordion-title">What majors or programs does Kibo University offer?</p>
+                <span class="accordion-icon"></span>
               </div>
-              <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(event)">
-                  <p class="accordion-title">Are there opportunities for research or internships at Kibo University?</p>
-                  <span class="accordion-icon"></span>
-                </div>
-                <div class="accordion-content">
-                  <p>
-                    Absolutely! Kibo University promotes research and internship opportunities for students. We have well-equipped research facilities and collaborate with industry partners to provide valuable experiential learning experiences.
-                  </p>
-                </div>
+              <div class="accordion-content">
+                <p>
+                  Currently, Kibo University offers Bachelor of Science(B.Sc) in computer science.
+                </p>
               </div>
-              <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(event)">
-                  <p class="accordion-title">What support services are available for students at Kibo University?</p>
-                  <span class="accordion-icon"></span>
-                </div>
-                <div class="accordion-content">
-                  <p>
-                    Kibo University offers a range of support services to ensure student success. These include academic office hours, student advisors and a community of all kibo students where you can ask your questions anytime.                  </p>
-                </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header" onclick="toggleAccordion(event)">
+                <p class="accordion-title">Does Kibo University have on-campus housing options?</p>
+                <span class="accordion-icon"></span>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  No, Kibo University is an online online university. Although students get to meet up with their
+                  colleagues and the staffs from time to time, all academic activities are online.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header" onclick="toggleAccordion(event)">
+                <p class="accordion-title">Can I transfer credits from another university to Kibo University?</p>
+                <span class="accordion-icon"></span>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  No, Currently Kibo only offers a three years B.Sc in computer science program and you cannot transfer
+                  fom another school now.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header" onclick="toggleAccordion(event)">
+                <p class="accordion-title">Does Kibo University offer study abroad programs?</p>
+                <span class="accordion-icon"></span>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Yes, Kibo University encourages students to participate in study abroad programs to gain international
+                  exposure and cultural experiences. We have partnerships with universities around the world, offering
+                  various exchange programs and study abroad opportunities.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header" onclick="toggleAccordion(event)">
+                <p class="accordion-title">Are there opportunities for research or internships at Kibo University?</p>
+                <span class="accordion-icon"></span>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Absolutely! Kibo University promotes research and internship opportunities for students. We have
+                  well-equipped research facilities and collaborate with industry partners to provide valuable
+                  experiential learning experiences.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header" onclick="toggleAccordion(event)">
+                <p class="accordion-title">What support services are available for students at Kibo University?</p>
+                <span class="accordion-icon"></span>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Kibo University offers a range of support services to ensure student success. These include academic
+                  office hours, student advisors and a community of all kibo students where you can ask your questions
+                  anytime. </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-    <script>
-      function toggleAccordion(event) {
-        const accordionItem = event.target.closest(".accordion-item");
-        const accordionContent =
-          accordionItem.querySelector(".accordion-content");
-        const accordionIcon = accordionItem.querySelector(".accordion-icon");
+      </div>
+    </section>
+  </div>
+  <script>
+    function toggleAccordion(event) {
+      const accordionItem = event.target.closest(".accordion-item");
+      const accordionContent =
+        accordionItem.querySelector(".accordion-content");
+      const accordionIcon = accordionItem.querySelector(".accordion-icon");
 
-        accordionContent.style.display =
-          accordionContent.style.display === "block" ? "none" : "block";
-        accordionIcon.style.transform =
-          accordionContent.style.display === "block"
-            ? "rotate(225deg)"
-            : "rotate(45deg)";
-      }
-    </script>
-  </body>
+      accordionContent.style.display =
+        accordionContent.style.display === "block" ? "none" : "block";
+      accordionIcon.style.transform =
+        accordionContent.style.display === "block"
+          ? "rotate(225deg)"
+          : "rotate(45deg)";
+    }
+  </script>
+</body>
+
 </html>
