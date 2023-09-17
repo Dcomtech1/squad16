@@ -6,6 +6,42 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Apply styles to the navigation menu */
+.navbar {
+  background-color: #4522A9;
+}
+
+.navbar ul {
+  list-style-type: none;
+  width: 50%;
+  margin: auto;
+  padding-left: 9vh;
+  display: flex;
+  gap: 69px;
+  align-items: end;
+  justify-content:end;
+  align-items: center;
+  height: 50px;
+}
+
+.navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a{
+    font-weight: bold;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: #ff5a2c;
+    text-decoration: none;
+  color: white;
+  border-radius: 5px; /* Add rounded corners on hover */
+  padding: 5px 10px; /* Add padding on hover for better visual feedback */
+}
 
 header {
     background-color: #4522a9; 
