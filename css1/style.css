@@ -17,7 +17,6 @@ body {
   color: #fff;
   font-size: 15px;
   margin: 0; }
-
 input, textarea, select, button {
   font-family: "Montserrat-Regular";
   color: #fff;
@@ -37,7 +36,46 @@ a:hover {
   text-decoration: none; }
 
 :focus {
-  outline: none; }
+  outline: none; 
+}
+
+/* Apply styles to the navigation menu */
+.navbar {
+  background-color: #4522A9;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: auto;
+  width: 50%;
+  /* margin: 0; */
+  padding-left: 9vh;
+  display: flex;
+  gap: 69px;
+  /* align-items: end; */
+  justify-content:end;
+  align-items: center;
+  height: 50px;
+}
+
+.navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #ff5a2c;
+  border-radius: 5px; /* Add rounded corners on hover */
+  padding: 5px 10px; /* Add padding on hover for better visual feedback */
+}
+
 
 .wrapper {
   min-height: 100vh;
